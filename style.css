@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    overflow: hidden;
+}
+.gradient{
+    position: absolute;
+    background-image: linear-gradient(to right,#f540fb,#4068a0);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -5;
+}
+.whitebox{
+    border: 1px solid gray;
+    position: absolute;
+    width: 120vw;
+    height: 40vh;
+    background-color: white;
+    transform: rotate(-10deg) translate(-10%,185%);
+}
+.upper{
+    min-height: 100vh;
+}
+.card{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px silver;
+    min-width: 16%;
+    /* min-height: 200px; */
+}
+.box .left,.box .right{
+    max-width: 40vw;
+}
+.box .left{
+    margin: 10vh 10vw;
+    min-height: 80vh;
+    /* background-color: rosybrown; */
+    justify-content: space-between;
+}
+h1{
+    font-weight: 200;
+    font-size: 3rem;
+}
+.headicon{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.box .left .btn{
+    width: max-content;
+    padding: 5px 20px;
+}
+.searchbar{
+    border-radius: 4px;
+    width: max-content;
+    padding:0 5px ;
+}
+.searchbar input{
+    padding: 10px;
+    border: none;
+    color: white;
+    position: relative;
+}
+
+.searchbar input:focus{
+    outline: none;
+}
+.searchbar input:hover ~ .searchbar label{
+    color: black;
+}
+.searchbar label{
+    padding: 10px;
+    position: absolute;
+}
+.searchbar button{
+    border: none;
+}
+/* ------------- */
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.nav ul li{
+    list-style: none;
+    margin:0 20px;
+}
+
+/* ---------------- */
+.ticks{
+    margin:0 10vw 10vh 10vw;
+    justify-content: space-between
+}
+.ticks .col i, .top i{
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* ----------------- */
+.top{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    align-items: baseline;
+}
+.top h1{
+    margin: 0 10px;
+}
+
+.features{
+    justify-content: space-around;
+    text-align: center;
+}
+.features .col{
+    max-width: 18%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.features .icon{
+    width: max-content;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 0 10px 0;
+}
+.features .icon i{
+    font-size: 40px;
+}
+.hr{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+}
+.hr .left{
+    padding:0 5vw;
+}
+.hr .left, .hr .right{
+    max-width: 40vw;
+}
+
+
+/* -------- */
+.why .bottom{
+    justify-content: space-around;
+    padding-bottom: 10vh;
+}
+.why .card{
+    width: 20%;
+    border-radius: 2px;
+}
+.why .bottom .card .bold{
+    margin: 20px 0;
+}
+.why .bottom .down{
+    transform: translate(0,30px);
+}
+
+/* ------------ */
+.gradbtn{
+    background-image: linear-gradient(to right,#d300dd,#75007a);
+    padding: 20px 30px;
+    margin:20px auto;
+    width: max-content;
+}
+.btncenter .right{
+    width: 100%;
+}
+
+/* ------------------------------- */
+.started{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ---------------------------------- */
+.footer .rowflex{
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 30px;
+}
+
+/* ------------------ */
+.cardcont{
+    position: relative;
+}
+.cardcont .card{
+    position: absolute;
+    min-width: 200px;
+}
+.card1{
+    width: 40vw;
+    max-height: 100px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+
+    justify-content: space-between;
+}
+.card1 .left{
+    width: 100%;
+    margin: 0;
+}
+.card1 .colflex{
+    width: max-content;
+    text-align: center;
+}
+.card1 img,.card4 img, .imi{
+    border-radius: 50%;
+    width: 50px;
+    margin: auto;
+}
+.card2{
+    top: 10vh;
+    left: 10vw;
+    width: 30vw;
+}
+.card2 .rowflex{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.card2 .rowflex .divi{
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.card2 i{
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.card3{
+    top: 50vh;
+    left: -5vw;
+    
+}
+.card4{
+    top: 70vh;
+    left: 5vw;
+    width: 25vw;
+    justify-content: space-between;
+}
+.card4 .colflex .bg_lightgreen{
+    padding: 10px;
+    border-radius: 4px;
+}
+.card4 i{
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+/* ----------------- */
+.cardssssss{
+    justify-content: space-between;
+}
+.cardssssss .hey{
+    min-width: 40vw;
+    
+}
+.cardssssss .card5 img{
+    /* width: 200px; */
+    height: 300px;
+}
+
+.card6 .rowflex{
+    justify-content: space-between;
+}
+
+.this .card{
+    max-width: 40vw;
+    min-width: 30vw;
+    min-height: 100px;
+}
+
+.card10{
+    background-image: linear-gradient(to right,#fef4cb,#f9a174);
+}
+
+/* ---------------------- */
+.thisbox{
+    padding:5vw;
+    justify-content: space-between;
+}
+.thisbox left{
+    position: relative;
+}
+.thisbox .left{
+
+}
+.overlaybox{
+    background-color: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 0;
+}
+.overlaybox i{
+    color: #fcc72a;
+}
